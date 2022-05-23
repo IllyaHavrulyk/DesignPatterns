@@ -1,13 +1,12 @@
-package com.daun.industries.ducks;
+package com.daun.industries.Behavioural.Strategy.ducks;
 
-import com.daun.industries.behaviors.fly.FlyBehavior;
-import com.daun.industries.behaviors.quack.QuackBehavior;
+import com.daun.industries.Behavioural.Strategy.behaviors.fly.FlyBehavior;
+import com.daun.industries.Behavioural.Strategy.behaviors.quack.QuackBehavior;
 
 public abstract class Duck {
   protected String name;
   protected FlyBehavior flyBehavior;
   protected QuackBehavior quackBehavior;
-
 
   public void performFly(){
     flyBehavior.fly();

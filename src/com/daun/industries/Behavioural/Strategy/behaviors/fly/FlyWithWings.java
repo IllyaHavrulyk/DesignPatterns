@@ -1,4 +1,4 @@
-package com.daun.industries.behaviors.fly;
+package com.daun.industries.Behavioural.Strategy.behaviors.fly;
 
 public class FlyWithWings implements FlyBehavior{
 

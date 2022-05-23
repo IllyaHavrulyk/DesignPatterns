@@ -1,4 +1,4 @@
-package com.daun.industries.behaviors.quack;
+package com.daun.industries.Behavioural.Strategy.behaviors.quack;
 
 public class Quack implements QuackBehavior{
   @Override

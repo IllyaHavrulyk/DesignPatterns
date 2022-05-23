@@ -1,9 +1,8 @@
 package com.daun.industries;
 
-import com.daun.industries.behaviors.fly.FlyRocketPowered;
-import com.daun.industries.behaviors.quack.Quack;
-import com.daun.industries.ducks.Duck;
-import com.daun.industries.ducks.types.MallardDuck;
+import com.daun.industries.Behavioural.Strategy.behaviors.fly.FlyRocketPowered;
+import com.daun.industries.Behavioural.Strategy.ducks.Duck;
+import com.daun.industries.Behavioural.Strategy.ducks.types.MallardDuck;
 
 public class DuckSimulator {
 
